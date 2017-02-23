@@ -1,0 +1,25 @@
+body{
+  font: Verdana;
+}
+menu{
+  margin-left: 40%;
+}
+h1{
+  text-align: center;
+}
+
+section{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+section h2{
+  text-align: center;
+}
+section form{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

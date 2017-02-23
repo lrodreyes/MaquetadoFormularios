@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro Beca</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <menu>
+      <label for="Paso 1"> Paso 1</label>
+      <label for="Paso 2"> Paso 2</label>
+      <label for="Paso 3"> Paso 3</label>
+      <label for="Paso 4"> Paso 4</label>
+    </menu>
+    <h1>Registro de Beca</h1>
+    <section>
+      <h2>Datos Personales</h2>
+      <form class="personales" action="index.html" method="post">
+        <label for=""> Nombre(s): </label> <input type="text" name="Nombre" required placeholder="Ej. Cruz Marian"><br><br>
+        <label for="">Apellido Paterno: </label> <input type="text" name="ApePaterno" required placeholder="Ej. García"><br><br>
+        <label for="">Apellido Materno: </label> <input type="text" name="ApeMaterno" required placeholder="Ej. Vázquez"><br><br>
+        <label for="">Fecha de Nacimiento: </label> <input type="date" name="FecNac" required ><br><br>
+        <label for="">Sexo:</label>
+        <select class="sexo" name="sexo">
+          <option value="mas">Masculino</option>
+          <option value="fem">Femenino</option>
+        </select><br><br>
+        <a href="formDireccion.html">Siguiente</a>
+      </form>
+    </section>
+  </body>
+</html>

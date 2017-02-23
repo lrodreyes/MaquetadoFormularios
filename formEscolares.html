@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro Beca</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <menu>
+      <label for="Paso 1"> Paso 1</label>
+      <label for="Paso 2"> Paso 2</label>
+      <label for="Paso 3"> Paso 3</label>
+      <label for="Paso 4"> Paso 4</label>
+    </menu>
+    <h1>Registro de Beca</h1>
+    <section>
+      <h2>Datos Escolares</h2>
+      <form class="datosEscolares" action="index.html" method="post">
+          <label>Institucion</label>
+          <select name="instituciones">
+            <option value="itc">Instituto Tecnologico de Cuautla</option>
+            <option value="itz">Instituto Tecnologico de Zacatepec</option>
+            <option value="itm">Instituto Tecnologico de Monterrey</option>
+          </select><br><br>
+          <label>Escolaridad</label>
+          <select>
+            <option value="sec">Secundaria</option>
+            <option value="bach">Bachillerato</option>
+            <option value="uni">Universidad</option>
+          </select><br><br>
+          <label>Semestre</label>
+          <select>
+            <option>1 semestre</option>
+            <option>2 semestre</option>
+            <option>3 semestre</option>
+            <option>4 semestre</option>
+            <option>5 semestre</option>
+            <option>6 semestre</option>
+            <option>7 semestre</option>
+            <option>8 semestre</option>
+            <option>9 semestre</option>
+          </select><br><br>
+          <label>Especialidad</label>
+          <select>
+            <option>Electronica</option>
+            <option>Sistemas Computacionales</option>
+            <option>Gestion Empresarial</option>
+            <option>Contador publico</option>
+            <option>Mecatronica</option>
+          </select><br><br>
+          <label>Matricula</label>
+          <input type="number" name="matricula"><br><br>
+          <label>Promedio Final</label>
+          <input type="number" name="promedio">
+          <button>Finalizar</button>
+      </form>
+    </section>
+  </body>
+</html>
